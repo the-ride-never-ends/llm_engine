@@ -5,6 +5,7 @@
 The LLM Engine module provides a unified interface for interacting with various Language Model APIs and engines. 
 It includes two main classes: LlmEngine for handling API interactions and GenerationStep for managing LLM generation tasks.
 This is mainly derived from E.P. Armstrong's excellent Augmentoolkit, which you can find here: https://github.com/e-p-armstrong/augmentoolkit
+- NOTE: This module relies on my private repos "config" and "logger". Please ensure you have access to your own version of these resources to use this module.
 
 ## Key Features
 - Support for multiple LLM backends (OpenAI, Cohere, Anthropic, Llama.cpp, Aphrodite)
